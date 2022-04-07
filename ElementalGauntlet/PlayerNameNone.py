@@ -4,4 +4,4 @@ import time
 import random
 
 class PlayerNameNone(Player):
-    pass
+    Player.__init__(self, "None", )
